@@ -108,7 +108,7 @@ variables = {
 "process_inject_min_alloc"      : get_process_inject_min_alloc(),
 "process_inject_startrwx"       : "false",
 "process_inject_userwx"         : "false",
-"process_inject_bof_reuse_memory"      : "true", # added in 4.7
+"process_inject_bof_reuse_memory"      : "false", # added in 4.7
 "process_inject_bof_allocator"         : get_process_inject_bof_allocator(), # added in 4.7     
 "process_inject_transform_x86_prepend" : get_nops(),
 "process_inject_transform_x86_append"  : get_nops(),
